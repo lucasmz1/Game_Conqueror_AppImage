@@ -4,5 +4,4 @@ Must be run as sudo or super user in order to get access to the process running 
 
 This package was made using [pkg2appimage](https://github.com/AppImageCommunity/pkg2appimage)
 
-<h1>Telegram Group<h1/>
-<h1>https://t.me/appimagelucasmz1<h1/>
+### AppImage users [Telegram Group](https://t.me/appimagelucasmz)
