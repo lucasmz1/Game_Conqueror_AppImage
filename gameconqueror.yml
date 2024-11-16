@@ -1,0 +1,72 @@
+app: gameconqueror
+union: true
+binpatch: true
+ingredients:  
+  packages:
+    - gameconqueror
+    - gir1.2-gtk-3.0
+    - policykit-1
+    - python3-gi
+    - python3
+    - scanmem
+ dist: focal
+  sources:
+    - deb http://archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse
+    - deb http://archive.ubuntu.com/ubuntu/ focal-security main restricted universe multiverse
+    - deb http://archive.ubuntu.com/ubuntu/ focal-updates main restricted universe multiverse
+    - deb http://archive.ubuntu.com/ubuntu/ focal-proposed main restricted universe multiverse 
+    - deb http://archive.ubuntu.com/ubuntu/ focal-backports main restricted universe multiverse
+exclude:
+    - ld-linux.so 
+    - ld-linux-x86-64.so
+    - libanl.so
+    - libBrokenLocale.so 
+    - libcidn.so
+    - libc.so
+    - libdl.so 
+    - libm.so 
+    - libmvec.so 
+    - libnss_compat.so 
+    - libnss_dns.so
+    - libnss_files.so 
+    - libnss_hesiod.so 
+    - libnss_nisplus.so 
+    - libnss_nis.so
+    - libpthread.so 
+    - libresolv.so 
+    - librt.so
+    - libthread_db.so 
+    - libutil.so
+    - libstdc++.so 
+    - libGL.so
+    - libEGL.so 
+    - libGLdispatch.so 
+    - libGLX.so
+    - libOpenGL.so 
+    - libdrm.so
+    - libglapi.so 
+    - libgbm.so
+    - libxcb.so 
+    - libX11.so 
+    - libgmodule-2.0.so 
+    - libasound.so
+    - libfontconfig.so 
+    - libthai.so
+    - libfreetype.so 
+    - libharfbuzz.so 
+    - libcom_err.so 
+    - libexpat.so
+    - libgcc_s.so 
+    - libgpg-error.so 
+    - libICE.so
+    - libp11-kit.so 
+    - libSM.so
+    - libusb-1.0.so 
+    - libuuid.so
+    - libz.so
+    - libgpg-error.so 
+    - libxcb-dri3.so 
+    - libxcb-dri2.so 
+    - libfribidi.so 
+    - libgmp.so
+    - libmount.so
