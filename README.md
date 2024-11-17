@@ -6,6 +6,6 @@ This package was made using [pkg2appimage](https://github.com/AppImageCommunity/
 
 Please don't use archimage because the pkg recipe there is even more experimental.
 
-Pull requests are more than welcome. We really need to fix the polkit issue but dont know how (already made an [issue](https://github.com/scanmem/scanmem/issues/445) on the projects github)
+Pull requests are more than welcome. We really need to fix the polkit issue but dont know how to (already made an [issue](https://github.com/scanmem/scanmem/issues/445) on the projects github)
 
 ### AppImage users [Telegram Group](https://t.me/appimagelucasmz)
