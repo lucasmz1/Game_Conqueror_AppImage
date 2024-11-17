@@ -1,6 +1,6 @@
 Exec name=gameconqueror
-Optional dependencies= polkit wayland
-Inclue all dependenceies=N
+Optional dependencies=
+Inclue all dependenceies=Y
 Standard config=N
 Chaotic aur=Y
 Binutils & gzip=y
