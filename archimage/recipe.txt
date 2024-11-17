@@ -1,0 +1,22 @@
+Exec name=gameconqueror
+Optional dependencies= polkit wayland
+Inclue all dependenceies=N
+Standard config=N
+Chaotic aur=Y
+Binutils & gzip=y
+Base-devel=Y
+
+List bin = []
+
+List /usr/share []
+
+Select libraries to save=Y
+swrast=Y
+
+List /usr/lib = [
+libscanmem.la
+]
+
+Enable audio=Y
+
+CA-CERTIFICATES=Y
